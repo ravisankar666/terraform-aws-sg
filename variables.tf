@@ -20,7 +20,7 @@ variable "sg_description" {
 }
 
 variable "vpc_id" {
-    type = map
+    type = map(string)
     default = {}
   
 }
